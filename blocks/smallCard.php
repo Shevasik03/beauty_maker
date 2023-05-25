@@ -2,7 +2,7 @@
     $servername = "localhost"; // Назва бази даних
     $username = "beauty40"; // Ім'я користувача бази даних
     $password = "f97d62AfKs"; // Пароль бази даних
-    $dbname = "dataBaseProducts"; // Назва бази даних
+    $dbname = "beauty40_shevasik"; // Назва бази даних
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -11,10 +11,11 @@
         die("Помилка з'єднання з базою даних: " . $conn->connect_error);
     }
     
-    // Решта коду залишається без змін
-    echo $conn;
-    // Закриття з'єднання із базою даних
-    $stmt->close();
+    $sql = "SELECT id, firstname, lastname FROM MyGuests";
+    $result = $conn->query($sql);
+
+    print_r($result);
+    
     $conn->close();
 ?>
     
