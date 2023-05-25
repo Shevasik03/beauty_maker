@@ -17,7 +17,7 @@
     // foreach($result as $name -> $value) {
     //     print_r( "Name:" . $name . "Value:" . $value );
     // }
-    echo $result;
+    print_r($result);
     
     $conn->close();
 ?>
