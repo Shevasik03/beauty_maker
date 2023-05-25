@@ -15,7 +15,7 @@
     $result = $conn->query($sql);
 
     foreach($result as $name -> $value) {
-        echo "Name:" . $name . "Value:" . $value;
+        print_r( "Name:" . $name . "Value:" . $value );
     }
     
     $conn->close();
