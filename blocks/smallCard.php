@@ -2,7 +2,7 @@
     $servername = "localhost"; // Назва бази даних
     $username = "beauty40"; // Ім'я користувача бази даних
     $password = "f97d62AfKs"; // Пароль бази даних
-    $dbname = "beauty40_shevasik"; // Назва бази даних
+    $dbname = "beautsy40_shevasik"; // Назва бази даних
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
