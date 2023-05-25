@@ -1,5 +1,3 @@
-<?php require "blocks/smallCard.php"; ?>
-
 <?php
     $title = "Головна сторінка";
     require_once "blocks/header.php";
