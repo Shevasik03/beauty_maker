@@ -11,7 +11,7 @@
         die("Помилка з'єднання з базою даних: " . $conn->connect_error);
     }
     
-    $sql = "SELECT id, firstname, lastname FROM MyGuests";
+    $sql = "SELECT * FROM MyGuests";
     $result = $conn->query($sql);
 
     print_r($result);
