@@ -14,7 +14,9 @@
     $sql = "SELECT * FROM dataBaseProducts";
     $result = $conn->query($sql);
 
-    print_r($result);
+    foreach($result as $name -> $value) {
+        echo "Name:" . $name . "Value:" . $value;
+    }
     
     $conn->close();
 ?>
