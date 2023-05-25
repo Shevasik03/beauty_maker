@@ -11,7 +11,7 @@
         die("Помилка з'єднання з базою даних: " . $conn->connect_error);
     }
     
-    $sql = "SELECT * FROM MyGuests";
+    $sql = "SELECT * FROM dataBaseProducts";
     $result = $conn->query($sql);
 
     print_r($result);
