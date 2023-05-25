@@ -31,7 +31,7 @@
 
         <section class="bestsellers">
             <div class="wrapper">
-                <?php require "/blocks/smallCard.php"; ?>
+                <?php require "blocks/smallCard.php"; ?>
             </div>
         </section>
 
