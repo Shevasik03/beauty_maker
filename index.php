@@ -1,7 +1,7 @@
 <?php
     $title = "Головна сторінка";
     require_once "blocks/header.php";
-    ?>
+?>
 
 <maim class="main">
     
