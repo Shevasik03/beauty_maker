@@ -26,10 +26,10 @@
         </div>
     </section>
     
+    <?php require "database/connect.php"; ?>
     
     <?php require "blocks/service.php"; ?>
 
-    <?php require "database/connect.php"; ?>
 
 
     <section class="bestsellers">
