@@ -26,14 +26,13 @@
         </div>
     </section>
     
-    <?php require "blocks/smallCard.php"; ?>
     
-        <?php require "blocks/service.php"; ?>
+    <?php require "blocks/service.php"; ?>
 
-        <section class="bestsellers">
-            <div class="wrapper">
-            </div>
-        </section>
+    <section class="bestsellers">
+        <div class="wrapper">
+        </div>
+    </section>
 
     </maim>
 
