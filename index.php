@@ -37,6 +37,6 @@
         </div>
     </section>
 
-    </maim>
+</maim>
 
 <?php require_once "blocks/footer.php"; ?>
