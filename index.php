@@ -28,7 +28,17 @@
     </section>
     
     
-    <?php require "blocks/service.php"; ?>
+    <?php require "blocks/service.php"; 
+    
+        $sql = "SELECT * From infoproducts";
+        $query = $pdo->prepare($sql);
+        $result = $query->fetchAll();
+
+        echo '<pre>';
+        print_r($result);
+        echo'</pre>';
+    ?>
+
 
     <section class="bestsellers">
         <div class="wrapper">
