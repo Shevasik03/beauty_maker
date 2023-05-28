@@ -30,18 +30,6 @@
     
     <?php require "blocks/service.php"; ?>
 
-    <?php 
-
-        $sql = "SELECT * From $db_name";
-        $query = $pdo->prepare($sql);
-        $result = $query->fetchAll();
-
-        echo '<pre>';
-        print_r($result);
-        echo'</pre>';
-    ?>
-
-
     <section class="bestsellers">
         <div class="wrapper">
         </div>
