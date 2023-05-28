@@ -29,6 +29,8 @@
     
     <?php require "blocks/service.php"; ?>
 
+    <?php require "database/connect.php" ?>
+
     <section class="bestsellers">
         <div class="wrapper">
         </div>
