@@ -1,3 +1,4 @@
+<?php require "database/connect.php"; ?>
 <?php
     $title = "Головна сторінка";
     require_once "blocks/header.php";
@@ -26,9 +27,19 @@
         </div>
     </section>
     
-    <?php require "database/connect.php"; ?>
     
     <?php require "blocks/service.php"; ?>
+
+    <?php 
+
+        $sql = "SELECT * From $db_name";
+        $query = $pdo->prepare($sql);
+        $result = $query->fetchAll();
+
+        echo '<pre>';
+        print_r($result);
+        echo'</pre>';
+    ?>
 
 
     <section class="bestsellers">
