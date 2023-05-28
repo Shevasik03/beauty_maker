@@ -19,7 +19,7 @@ $query = $pdo->prepare($sql);
 $query->execute();
 $result = $query->fetchAll();
 
+echo '<pre>';
 print_r($result);
+echo '</pre>'
 ?>
-
-<h2><?=$result ?></h2>
