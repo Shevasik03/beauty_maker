@@ -1,4 +1,3 @@
-<?php require "database/connect.php"; ?>
 <?php
     $title = "Головна сторінка";
     require_once "blocks/header.php";
@@ -28,16 +27,9 @@
     </section>
     
     
-    <?php require "blocks/service.php"; 
-    
-        $sql = "SELECT * From infoproducts";
-        $query = $pdo->prepare($sql);
-        $result = $query->fetchAll();
+    <?php require "blocks/service.php"; ?>
 
-        echo '<pre>';
-        print_r($result);
-        echo'</pre>';
-    ?>
+    <?php require "database/connect.php"; ?>
 
 
     <section class="bestsellers">
