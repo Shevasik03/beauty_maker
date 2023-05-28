@@ -26,7 +26,7 @@
         </div>
     </section>
     
-    <?php require "database/connect.php"; ?>
+    <?php include "database/connect.php"; ?>
     
     <?php require "blocks/service.php"; ?>
 
