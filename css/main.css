@@ -103,6 +103,10 @@ a {
 
 /* Intro */
 
+main{
+    position: relative;
+}
+
 .intro {
     position: relative;
     padding: 107px 0 31px;
