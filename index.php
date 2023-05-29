@@ -68,3 +68,5 @@
 </main>
 
 <?php require_once "blocks/footer.php"; ?>
+
+<?php require "blocks/renderCard.php"; ?>
