@@ -256,3 +256,16 @@ main{
     line-height: 32px;
     color: #fff;
 }
+
+.icon__social {
+    max-width: 100px; ;
+}
+
+.icon__social img {}
+
+.icon__social p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: white;
+}
