@@ -1,4 +1,5 @@
 <?php
+
 $driver = 'mysql';
 $host = 'localhost';
 $db_name = 'beauty40_products';
