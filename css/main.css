@@ -286,7 +286,10 @@ main{
     font-size: 15px;
     line-height: 17px;
     color: #fff;
-    margin-bottom: 4px;
+}
+
+.footer__nav ul li {
+    margin-bottom: 5px;
 }
 
 .contacts__title {
