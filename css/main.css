@@ -294,9 +294,13 @@ main{
     font-size: 25px;
     line-height: 29px;
     color: #fff;
+
+    margin-bottom: 10px;
 }
 
 .contacts__section p {
+    padding-left: 5px;
+
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
@@ -305,4 +309,6 @@ main{
 
 .contacts__section .flex__sb {
     justify-content: start;
+
+    margin-bottom: 8px;
 }
