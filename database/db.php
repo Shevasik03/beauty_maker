@@ -1,10 +1,11 @@
 <?php
 
-include "./connect.php";
+require "./connect.php";
 
-$sql = "SELECT * From infoproducts";
-$query = $pdo->prepare($sql);
-$query->execute();
-$result = $query->fetchAll();
-
-print_r($query);
+function selectAll($table) {
+    global $pdo;
+    $sql = "SELECT * FROM $table";
+    $query = $pdo->prepare($sql);
+    $query->execute();
+    return $query->fetchAll();
+}

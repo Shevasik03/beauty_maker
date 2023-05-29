@@ -13,13 +13,3 @@ try {
 } catch (PDOException $i) {
     die("Помилка підключення до бази даних");
 }
-
-$sql = "SELECT * From infoproducts";
-$query = $pdo->prepare($sql);
-$query->execute();
-$result = $query->fetchAll();
-
-echo '<pre>';
-print_r($result);
-echo '</pre>'
-?>
