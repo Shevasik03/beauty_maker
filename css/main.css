@@ -91,7 +91,7 @@ a {
 }
 
 .cart__content {
-    position: absolute;
+    position: fixed;
     right: 0;
     width: 470px;
     height: 100vh;
