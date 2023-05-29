@@ -252,12 +252,8 @@ main{
     flex-direction: column;
 }
 
-.icon__social {
-    margin-left: 7px;
-}
-
-.footer__logo img {
-    fill: #fff;
+.footer__logo {
+    margin-bottom: 22px;
 }
 
 .footer__logo h1 {
@@ -269,9 +265,8 @@ main{
 
 .icon__social {
     max-width: 95px; ;
+    margin-left: 7px;
 }
-
-/* .icon__social img {} */
 
 .icon__social p {
     font-weight: 400;
