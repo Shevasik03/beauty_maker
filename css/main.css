@@ -214,9 +214,15 @@ a {
 
 /* Bestsellers */
 
-
+.bestsellers {
+    position: relative;
+}
 
 /* Catalog */
+
+.catalog {
+    position: relative;
+}
 
 .catalog__section {
     display: flex;
