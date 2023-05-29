@@ -26,7 +26,7 @@
                             <img src="./img/svg/phone.svg" alt="">
                             <p>+380 99 666 66 66</p>
                         </div>
-                        <div class="contacts__location flex_sb">
+                        <div class="contacts__location flex__sb">
                             <img src="./img/svg/location.svg" alt="">
                             <p>Київ, Україна</p>
                         </div>
