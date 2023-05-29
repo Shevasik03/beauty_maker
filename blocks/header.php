@@ -12,8 +12,8 @@
                     <li class="flex__sb">КАТАЛОГ
                         <img src="./img/svg/arrow_bottom.svg" alt="">
                     </li>
-                    <a href="about_us.php">ПРО НАС</a>
-                    <a href="faq.php">F.A.Q</a>
+                    <li><a href="about_us.php">ПРО НАС</a></li>
+                    <li><a href="faq.php">F.A.Q</a></li>
                     <li class="flex__sb">КОНТАКТИ
                         <img src="./img/svg/arrow_bottom.svg" alt="">
                     </li>
