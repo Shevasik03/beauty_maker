@@ -22,15 +22,15 @@
                 <div class="footer__contacts">
                     <h3 class="contacts__title">НАШІ КОНТАКТИ</h3>
                     <div class="contacts__section">
-                        <div class="contacts__number">
+                        <div class="contacts__number flex__sb">
                             <img src="./img/svg/phone.svg" alt="">
                             <p>+380 99 666 66 66</p>
                         </div>
-                        <div class="contacts__location">
+                        <div class="contacts__location flex_sb">
                             <img src="./img/svg/location.svg" alt="">
                             <p>Київ, Україна</p>
                         </div>
-                        <div class="contacts__email">
+                        <div class="contacts__email flex__sb">
                             <img src="./img/svg/email.svg" alt="">
                             <p>beautymake@ukr.net</p>
                         </div>

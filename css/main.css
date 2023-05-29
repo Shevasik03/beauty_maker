@@ -285,4 +285,19 @@ main{
     font-size: 15px;
     line-height: 17px;
     color: #fff;
+    margin-bottom: 4px;
+}
+
+.contacts__tittle {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+}
+
+.contacts__section p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFCFC;;
 }
