@@ -34,6 +34,8 @@
     
     <?php include "blocks/service.php"; ?>
 
+    <?php include "blocks/renderCard.php"; ?>
+
     <section class="bestsellers">
         <div class="wrapper">
             <div class="bestsellers__content">
