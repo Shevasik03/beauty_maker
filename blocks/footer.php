@@ -2,7 +2,7 @@
         <div class="wrapper">
             <div class="footer__content flex__sb">
                 <div class="footer__left-column">
-                    <a href="index.php" class="footer__logo">
+                    <a href="index.php" class="footer__logo flex__sb">
                         <img src="./img/svg/header_logo.svg" alt="">
                         <h1>BEAUTY MAKER</h1>
                     </a>

@@ -246,3 +246,13 @@ main{
     background: #666666;
 }
 
+.footer__logo img {
+    fill: #fff;
+}
+
+.footer__logo h1 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #fff;
+}
