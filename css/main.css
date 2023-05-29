@@ -253,6 +253,7 @@ main{
 }
 
 .footer__logo {
+    width: 260px;
     margin-bottom: 15px;
 }
 
