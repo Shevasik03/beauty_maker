@@ -1,7 +1,13 @@
+
 <?php
     $title = "Головна сторінка";
+    require_once "blocks/doctype.php";
+?>
+
+<?php
     require_once "blocks/header.php";
 ?>
+
 
 <main class="main">
     
