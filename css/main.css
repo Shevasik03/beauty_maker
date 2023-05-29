@@ -63,7 +63,7 @@ a {
     width: 455px;
 }
 
-.header__list li , a {
+.header__list li a {
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
@@ -244,7 +244,7 @@ main{
     fill: #fff;
 }
 
-.fаooter .wrapper .footer__logo h1 {
+.footer__logo h1 {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
