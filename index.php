@@ -26,7 +26,7 @@
         </div>
     </section>
     
-    <?php require "blocks/service.php"; ?>
+    <?php include "blocks/service.php"; ?>
 
     <section class="bestsellers">
         <div class="wrapper">
