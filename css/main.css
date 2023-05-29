@@ -241,7 +241,7 @@ main{
     background: #666666;
 }
 
-.footer__content .flex__sb {
+.footer__content.flex__sb {
     align-items: flex-start;
 }
 
