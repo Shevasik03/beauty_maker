@@ -46,7 +46,7 @@
     <section class="catalog">
         <div class="wrapper">
             <div class="catalog__content">
-                <div class="catolog__section">
+                <div class="catalog__section">
                     <div class="card">
                         <img src="./img/catalog/model_A1.jpg" alt="" class="card__image">
                         <h4 class="card__title">органайзер <span></span></h4>
