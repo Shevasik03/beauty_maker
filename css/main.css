@@ -307,6 +307,10 @@ main{
     color: #FFFCFC;;
 }
 
+.contacts__section img {
+    width: 11px;
+}
+
 .contacts__section .flex__sb {
     justify-content: start;
 
