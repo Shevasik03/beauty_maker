@@ -1,9 +1,28 @@
     <footer class="footer">
         <div class="wrapper">
-                <a class="header__logo flex__sb" href="index.php">
-                    <img src="./img/svg/header_logo.svg" alt="">
-                    <h1>BEAUTY MAKER</h1>
-                </a>
+            <div class="footer__content flex__sb">
+                <div class="footer__left-column">
+                    <a href="index.php" class="footer__logo">
+                        <img src="./img/svg/header_logo.svg" alt="">
+                        <h1>BEAUTY MAKER</h1>
+                    </a>
+                    <a href="" class="icon__social">
+                        <img src="./img/svg/icon_inastagram.svg" alt="">
+                        <p>instagram</p>
+                    </a>
+                </div>
+                <nav class="footer__center-colomn">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </nav>
+                <div class="footer__right-column">
+                    <div class="contacts"></div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
