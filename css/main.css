@@ -289,7 +289,7 @@ main{
     margin-bottom: 4px;
 }
 
-.contacts__tittle {
+.contacts__title {
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
@@ -301,4 +301,8 @@ main{
     font-size: 12px;
     line-height: 15px;
     color: #FFFCFC;;
+}
+
+.contacts__section .flex__sb {
+    justify-content: start;
 }
