@@ -1,7 +1,7 @@
 <?php
 require "../database/db.php";
 
-$products = selectAll('products');
+$products = selectAll('infoproducts');
 
 printTable($products);
 
