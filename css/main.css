@@ -82,7 +82,6 @@ a {
     position: fixed;
     width: 100%;
     height: 100vh;
-    overflow-y: hidden;
     z-index: 110;
 }
 
@@ -92,10 +91,11 @@ a {
 }
 
 .cart__content {
-    position: fixed;
+    position: absolute;
     right: 0;
     width: 470px;
     height: 100vh;
+    overflow-y: hidden;
     background: #fff;
 
     transform: translateX(100%);
