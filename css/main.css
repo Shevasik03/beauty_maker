@@ -119,8 +119,8 @@ a {
 
 .cart__header img {
     position: absolute;
-    top: 5%;
-    right: 4.5%
+    top: -5%;
+    right: 0;
 
 
 }
