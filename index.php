@@ -8,6 +8,9 @@
     require_once "blocks/header.php";
 ?>
 
+<?php
+    require_once "blocks/cart.php";
+?>
 
 <main class="main">
     
