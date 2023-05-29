@@ -3,7 +3,7 @@
             <div class="footer__content flex__sb">
                 <div class="footer__title">
                     <a href="index.php" class="footer__logo flex__sb">
-                        <img src="./img/svg/header_logo.svg" alt="">
+                        <img src="./img/svg/footer_logo.svg" alt="">
                         <h1>BEAUTY MAKER</h1>
                     </a>
                     <a href="https://www.instagram.com/beauty_maker_in_ua/" class="icon__social flex__sb">
