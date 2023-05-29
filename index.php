@@ -26,8 +26,6 @@
         </div>
     </section>
     
-    <?php include "database/connect.php"; ?>
-    
     <?php require "blocks/service.php"; ?>
 
 
