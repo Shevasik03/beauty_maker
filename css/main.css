@@ -242,7 +242,12 @@ main{
 }
 
 .footer__content .flex__sb {
-    align-items: start;
+    align-items: flex-start;
+}
+
+.footer__title {
+    display: flex;
+    flex-direction: column;
 }
 
 .icon__social {
