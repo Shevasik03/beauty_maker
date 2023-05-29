@@ -235,10 +235,6 @@ main{
     align-items: center;
 }
 
-
-
-
-
 /* Footer */
 
 .footer {
@@ -261,7 +257,7 @@ main{
     max-width: 100px; ;
 }
 
-.icon__social img {}
+/* .icon__social img {} */
 
 .icon__social p {
     font-weight: 400;
