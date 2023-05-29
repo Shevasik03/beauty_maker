@@ -6,7 +6,7 @@
                         <img src="./img/svg/header_logo.svg" alt="">
                         <h1>BEAUTY MAKER</h1>
                     </a>
-                    <a href="" class="icon__social flex__sb">
+                    <a href="https://www.instagram.com/beauty_maker_in_ua/" class="icon__social flex__sb">
                         <img src="./img/svg/icon_instagram.svg" alt="">
                         <p>instagram</p>
                     </a>
