@@ -7,7 +7,7 @@
                         <h1>BEAUTY MAKER</h1>
                     </a>
                     <a href="" class="icon__social">
-                        <img src="./img/svg/icon_inastagram.svg" alt="">
+                        <img src="./img/svg/icon_instagram.svg" alt="">
                         <p>instagram</p>
                     </a>
                 </div>
